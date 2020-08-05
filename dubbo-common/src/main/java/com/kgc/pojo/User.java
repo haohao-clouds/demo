@@ -3,7 +3,7 @@ package com.kgc.pojo;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    private Integer id;
+    private Integer id;//编号
     private String name;
     private String address;
     private Integer deptId;
