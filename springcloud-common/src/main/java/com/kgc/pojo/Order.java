@@ -3,7 +3,7 @@ package com.kgc.pojo;
 import java.io.Serializable;
 
 public class Order {
-    private Integer id;
+    private Integer id;//编号
     private String title;
     private Double price;
     private Integer uid;
