@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class User implements Serializable {
     private Integer id;//编号
-    private String name;
-    private String address;
-    private Integer deptId;
+    private String name;//姓名
+    private String address;//地址
+    private Integer deptId;//部门编号
     public User(){}
     public User(Integer id, String name, String address, Integer deptId) {
         this.id = id;
